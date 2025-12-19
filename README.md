@@ -14,7 +14,7 @@ This repository accompanies the published paper:
 > *Diagnostics, 2025*
 
 We propose **μ-Net**, a novel encoder–decoder segmentation architecture designed for **accurate and robust colorectal polyp segmentation** in colonoscopy images.  
-The model integrates **multi-scale feature extraction**, **residual learning**, and **attention mechanisms (CBAM)**, while also providing **Explainable AI (XAI)** visualizations to support clinical trust.
+The model integrates **multi-scale feature extraction**, **residual learning**, and **attention mechanisms (CBAM)** through carefully designed architectural blocks, while also providing **Explainable AI (XAI)** visualizations to support clinical trust.
 
 ---
 
@@ -36,6 +36,7 @@ The model integrates **multi-scale feature extraction**, **residual learning**, 
 ## Model Architecture
 
 μ-Net follows an **encoder–decoder structure** with skip connections and residual learning.
+The architecture is specifically optimized for capturing fine-grained polyp boundaries while maintaining global contextual awareness.
 
 Key architectural highlights:
 
@@ -50,7 +51,7 @@ Key architectural highlights:
 ---
 
 ## Dataset
-
+All experiments were conducted following standard research and ethical guidelines for medical image analysis.
 - **Kvasir-SEG Dataset**
   - 1000 colonoscopy images with pixel-wise polyp annotations
   - Publicly available:  
@@ -107,3 +108,9 @@ If you use this work, please cite:
   year={2025},
   publisher={MDPI}
 }
+
+
+## Repository Status
+⚠️ The full training and evaluation code will be released after institutional approval.  
+This repository currently documents the published architecture, methodology, and experimental setup.
+
