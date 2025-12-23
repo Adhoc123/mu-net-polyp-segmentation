@@ -28,7 +28,7 @@ This repository is intended to **support the published paper** on μ-Net for col
 
 - The current version focuses on **architecture description, experimental setup, and reproducibility details**.
 - Full training and inference code will be released in a future update, subject to dataset licensing and institutional approvals.
-
+- The full training and evaluation code will be released after institutional approval.  
 
 ---
 
@@ -126,6 +126,5 @@ If you use this work, please cite:
 
 
 **Repository Status**
-⚠️ The full training and evaluation code will be released after institutional approval.  
-This repository currently documents the published architecture, methodology, and experimental setup.
+
 
